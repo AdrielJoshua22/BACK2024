@@ -98,7 +98,7 @@ app.get('/students/:dni',async (req,res)=>{
     
 })
 
-const server = app.listen(8080,()=>console.log("escuchando en puerto 8080"))
+const server = app.listen(8080,()=>console.log("listening in PORT :8080"))
 
 const io = new Server(server)
 
